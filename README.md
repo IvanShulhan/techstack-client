@@ -8,4 +8,4 @@
 ### Frontend part deployed on Vercel
 ### Backend part deployed on Heroku
 
-### [DEMO](https://techstack-client-d8rhva9g5-ivanshulhan.vercel.app/)
+### [DEMO LINK](https://techstack-client-d8rhva9g5-ivanshulhan.vercel.app/)
