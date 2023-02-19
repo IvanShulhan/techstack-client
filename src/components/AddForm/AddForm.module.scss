@@ -1,0 +1,51 @@
+.paper {
+  padding: 15px;
+  background-color: #eee;
+  margin-bottom: 70px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 40px;
+  }
+
+  .title {
+    margin: 0 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 26px;
+  
+    .error {
+      color: #d32f2f;
+    }
+  
+    .input {
+      min-width: 20%;
+
+      &:first-child {
+        flex-grow: 1;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+        min-width: none;
+      }
+    }
+  
+    button {
+      width: 250px;
+      min-height: 56px;
+      justify-self: flex-end;
+      font-weight: 700;
+      color: #fff;
+  
+      @media (max-width: 425px) {
+        min-width: 100%;
+      }
+    }
+  }
+}
